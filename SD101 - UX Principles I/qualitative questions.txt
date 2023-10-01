@@ -1,0 +1,42 @@
+John = User 4
+How easy was it to install the game?
+Its relatively easy it was just right there (had mentioned you cant search by filters but in doing so found out that it is possible, but not obvious)
+
+Finlay = 3
+How easy was it to find RPG games until 20nzd ( filters )
+not at all huge paint point - too many different pages / layouts / navigational structures
+
+Any pain points?
+client is diffent to webbrowser, navigation differs
+
+Briar = 1
+
+Do you have any pain points or successpoints in mind
+
+Too much info on each pages, lack of clarity in the language  and layout, and priorities of the layout
+I liked the design of the plain background, simple text, over saturated with foreground content
+
+What do you think of the community hub?
+Doesnt seem intuitive to navigate between or to certain forums (refinement / filters) . would be tempted to use google instead for help forums.
+
+Jacqui =5
+
+    What did you find easy?
+        once found the filter were easy to use
+        game search was easy
+
+    Most frustrating thing? 
+        Finlay. not being able to easily find the discussion forums
+        install button remarked to be quite small and not visible enough
+
+
+Louis = 2
+
+    What did you find easy?
+        steam install easy
+
+    Most frustrating thing? 
+        dislikes category system, would prefer if when a genre is clicked within the category system, it applies it as a filter on all games
+        seeing your library not very obvious, could be easier
+        game store page should have a bigger/ more visible community button 
+

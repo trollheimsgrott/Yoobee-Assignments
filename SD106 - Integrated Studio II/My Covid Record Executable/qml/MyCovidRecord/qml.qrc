@@ -1,0 +1,80 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>App.qml</file>
+        <file>assets/Button.png</file>
+        <file>assets/Dropdown Circle.png</file>
+        <file>assets/Help.png</file>
+        <file>assets/Light Button.png</file>
+        <file>assets/Nav Button.png</file>
+        <file>assets/Picture.png</file>
+        <file>assets/Profile Button.png</file>
+        <file>assets/qr-code.png</file>
+        <file>assets/Side Picture.png</file>
+        <file>assets/Sidebar Button.png</file>
+        <file>assets/Small Button.png</file>
+        <file>assets/Thin Button.png</file>
+        <file>assets/Vaccine Icon.png</file>
+        <file>assets/Vector.png</file>
+        <file>Profile.qml</file>
+        <file>ProfileDropdown.qml</file>
+        <file>RequestPass.qml</file>
+        <file>RequestPassPage.qml</file>
+        <file>Results.qml</file>
+        <file>ResultsDropdown.qml</file>
+        <file>SideBar.qml</file>
+        <file>VaccineDropdown.qml</file>
+        <file>Vaccines.qml</file>
+        <file>Content.qml</file>
+        <file>assets/BottomRadio.png</file>
+        <file>assets/Confirm your Identity.png</file>
+        <file>assets/Get Started.png</file>
+        <file>assets/Login Main Logo.png</file>
+        <file>assets/Login Module.png</file>
+        <file>assets/Module.png</file>
+        <file>assets/My Health Account.png</file>
+        <file>assets/MyselfButton.png</file>
+        <file>assets/RealMe Module.png</file>
+        <file>assets/RequestModule2.png</file>
+        <file>assets/Second Logo.png</file>
+        <file>assets/SignUp Module.png</file>
+        <file>assets/SignUp Title.png</file>
+        <file>assets/SomeoneElseButton.png</file>
+        <file>assets/TopRadio.png</file>
+        <file>assets/Verification Method.png</file>
+        <file>assets/Verify your Identity.png</file>
+        <file>assets/Verify.png</file>
+        <file>LoginPage.qml</file>
+        <file>SignUpPage.qml</file>
+        <file>assets/Terms.png</file>
+        <file>RAT.qml</file>
+        <file>Help.qml</file>
+        <file>assets/I want to.png</file>
+        <file>assets/Isolation.png</file>
+        <file>assets/Testing and tracing.png</file>
+        <file>assets/Vaccines.png</file>
+        <file>assets/Report RAT Result.png</file>
+        <file>assets/Checkbox.png</file>
+        <file>assets/Results Module.png</file>
+        <file>RATResults.qml</file>
+        <file>assets/Switch No.png</file>
+        <file>assets/Switch Yes.png</file>
+        <file>Contact.qml</file>
+        <file>assets/Contact.png</file>
+        <file>Compose.qml</file>
+        <file>assets/Compose.png</file>
+        <file>assets/Back Button.png</file>
+        <file>assets/Keyboard.png</file>
+        <file>ProfilePage.qml</file>
+        <file>assets/Edit Profile Button.png</file>
+        <file>assets/NHI Number.png</file>
+        <file>assets/Profile Editor.png</file>
+        <file>assets/PopUpThanks.png</file>
+        <file>PrivacyStatement.qml</file>
+        <file>assets/Privacy.png</file>
+        <file>application.js</file>
+        <file>assets/MethodOne.png</file>
+        <file>assets/MethodTwo.png</file>
+        <file>assets/CheckBoxTerms.png</file>
+    </qresource>
+</RCC>

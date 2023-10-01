@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Welcome to Steam</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <script src="main.js"></script>
+</head>
+
+<body onload="init()">
+  <nav>
+    <a class="logo-link" onclick="showPage('store')">
+      <img src="images/logo_mobile.png" alt="Steam" class="mobile-logo mobile-only" />
+      <img src="images/logo.png" alt="Steam" class="desktop-logo desktop-only" />
+    </a>
+
+    <div id="mainSideNav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">&times;</a>
+      <ul>
+        <li><a onclick="showPage('store')">Store</a></li>
+        <li><a onclick="showPage('community')">Community</a></li>
+        <li><a onclick="showPage('profile')">Profile</a></li>
+        <li><a onclick="showPage('about')">About</a></li>
+        <li><a onclick="showPage('support')">Support</a></li>
+      </ul>
+    </div>
+    <span class="hamburger" onclick="toggleNav()">&#9776;</span>
+    <a onclick="showPage('install')">
+      <img src="images/install.png" alt="Install" class="install-logo" />
+    </a>
+    <a onclick="showPage('addtocart')">
+      <img src="images/cart.png" alt="cart" class="cart-logo" />
+    </a>
+    <div id="secondarySideNav" class="sidenav">
+      <ul>
+        <li><a onclick="showPage('#')">Login</a></li>
+        <li><a onclick="showPage('#')">Language</a></li>
+      </ul>
+    </div>
+    <a onclick="showPage('language')"></a><img src="images/dropdown.svg" alt="dropdown" class="dropdownicon" />
+  </nav>
+
+  <div id="content">
+
+    <section id="store" class="page" style="display: none">
+      <article class="banner">
+        <img src="images/banner.jpg" alt="banner" class="banner-image">
+      </article>
+      <main class="store-grid">
+        <article class="daysgone">
+          <img src="images/days-gone.png" alt="Days gone" class="storetile" />
+        </article>
+        <article class="dishonored">
+          <img src="images/dishonored.png" alt="Dishonored" class="storetile" />
+        </article>
+        <article class="elden-ring">
+          <img src="images/elden-ring.png" alt="Elden Ring" class="storetile" />
+        </article>
+        <article class="factorio">
+          <img src="images/factorio.png" alt="Factorio" class="storetile" />
+        </article>
+        <article class="arma3">
+          <img src="images/arma3.png" alt="Arma 3" class="storetile" />
+        </article>
+        <article class="apex">
+          <img src="images/apex.png" alt="Apex" class="storetile" />
+        </article>
+        <article class="cyberpunk">
+        </article>
+        <article class="no-mans-sky">
+        </article>
+        <article class="assassins-creed">
+        </article>
+        <article class="conan-exiles">
+        </article>
+        <article class="dark-souls">
+        </article>
+        <article class="rust">
+        </article>
+        <article class="dayz">
+        </article>
+        <article class="skyrim">
+        </article>
+        <article class="stardew-valley">
+        </article>
+        <article class="superhot">
+        </article>
+        <article class="fallout4">
+        </article>
+        <article class="farcry4">
+        </article>
+        <article class="the-witcher3">
+        </article>
+        <article class="dying-light">
+        </article>
+      </main>
+    </section>
+  </div>
+    <section id="community" class="page" style="display: none">
+      community
+    </section>
+
+    <section id="profile" class="page" style="display: none">
+      <main class="profile-grid">
+        <article class="avatar">
+          <img src="images/avatar.png" alt="profile" class="avatar-image">
+          <h1 class="heading">GameMaster69</h1>
+          <h2 class="heading2">"...im the best."</h2>
+          <img src="images/trollheimsgrott.gif" alt="Trollheimsgrott" class="trollheimsgrott-image">
+        </article>
+        <article class="profile-info">
+          <!-- Trying to get the player levels within circles -->
+          <!-- <div class="quote-wrapper">
+        <blockquote class="text" cite="http://www.inspireux.com/category/quotes/jesse-james-garrett/">
+          <p>Experience design is the design of anything, independent of medium, or across media, with human experience as an explicit outcome, and human engagement as an explicit goal.</p>
+          <footer>– Jesse James Garrett</footer>
+        </blockquote>
+  </div>
+
+        </article>
+        <article class="friend-status grid-row-span-2">
+        </article>
+        <article class="gift-card">
+        </article>
+        <article class="dayz">
+          <img src="images/day-z.png" alt="dayz" class="dayz-image">
+
+          <p>How long can you survive a post-apocalyptic world? A land overrun with an infected "zombie" population,
+            where
+            you compete with other survivors for limited resources. Will you team up with strangers and stay strong
+            together? Or play as a lone wolf to avoid betrayal? This is DayZ – this is your story.</p>
+
+          <p>dfgdfgdfgdfdggf</p>
+        </article>
+        <article class="the-witcher3">
+          <img src="images/the-witcher3.png" alt="The Witcher 3" class="the-witcher3-image">
+
+          <p>As war rages on throughout the Northern Realms, you take on the greatest contract of your life — tracking
+            down the Child of Prophecy, a living weapon that can alter the shape of the world.</p>
+
+          <p>dfgdfgdfgdfdggf</p>
+        </article>
+        <article class="dark-souls">
+          <img src="images/dark-souls.png" alt="Dark Souls" class="dark-souls-image">
+
+          <p>Dark Souls continues to push the boundaries with the latest, ambitious chapter in the critically-acclaimed
+            and genre-defining series. Prepare yourself and Embrace The Darkness!</p>
+
+          <p>dfgdfgdfgdfdggf</p>
+        </article>
+        <article class="arma3">
+          <img src="images/arma3.png" alt="Arma 3" class="arma3-image">
+
+          <p>Experience true combat gameplay in a massive military sandbox. Deploying a wide variety of single- and
+            multiplayer content, over 20 vehicles and 40 weapons, and limitless opportunities for content creation, this
+            is the PC’s premier military game. Authentic, diverse, open - Arma 3 sends you to war.</p>
+
+          <p>dfgdfgdfgdfdggf</p>
+        </article>
+        <article class="dying-light">
+          <img src="images/dying-light.png" alt="Dying Light" class="dying-light-image">
+
+          <p>First-person action survival game set in a post-apocalyptic open world overrun by flesh-hungry zombies.
+            Roam
+            a city devastated by a mysterious virus epidemic. Scavenge for supplies, craft weapons, and face hordes of
+            the
+            infected.</p>
+
+          <p>dfgdfgdfgdfdggf</p>
+        </article>
+
+      </main>
+    </section>
+
+    <section id="about" class="page" style="display: none">
+      <p>Pellentesque tincidunt iaculis nibh, nec congue nulla euismod a. Vivamus pulvinar eu risus vitae finibus.
+        Aliquam
+        sit amet sem enim. Quisque vel turpis congue, sollicitudin libero vel, suscipit massa. Curabitur auctor ipsum et
+        sollicitudin tempus. Ut vitae varius justo. Duis vitae metus quis felis placerat auctor. Maecenas et posuere
+        tellus, eget luctus sem. Nam vehicula a lacus sit amet pretium. Pellentesque habitant morbi tristique senectus
+        et
+        netus et malesuada fames ac turpis egestas. Quisque vitae sapien eu orci facilisis tempus. Nulla facilisi.</p>
+
+      <p>Nullam lobortis diam ut varius pellentesque. Aliquam sed nisl tincidunt, venenatis lorem eu, rhoncus odio.
+        Maecenas iaculis, lectus in laoreet placerat, nisi magna laoreet velit, nec aliquam neque justo sed sapien.
+        Donec
+        lacinia egestas neque, at porta nisi molestie eget. Sed lorem ante, congue vel dolor ut, malesuada fringilla
+        diam.
+        Phasellus viverra elit dolor, eget tincidunt risus porta vel. Aenean facilisis tincidunt risus sed mattis. Cras
+        eleifend est eget mi fringilla rutrum. Quisque porttitor nibh et tortor lacinia porta. Pellentesque volutpat est
+        eget sagittis tristique. Vestibulum nec consectetur augue. Integer sem tellus, dapibus vel congue a, convallis
+        id
+        nunc. Pellentesque a porta nisi, at faucibus felis. Duis pulvinar ante non leo viverra laoreet. Nullam ornare
+        eleifend metus, eu porta arcu dictum ut. Aenean tortor ante, sagittis at velit id, semper volutpat orci.</p>
+
+      <p>Donec faucibus interdum convallis. Donec sed ex lacus. Nam nibh dolor, molestie sed lacinia vitae, commodo et
+        metus. Nunc rutrum nulla ornare imperdiet molestie. Nulla dui ipsum, venenatis in neque non, volutpat maximus
+        nulla. Nulla tincidunt, lorem non laoreet viverra, lectus erat sagittis sapien, et tempus augue risus vel
+        mauris.
+        Etiam eget massa blandit, ultricies libero quis, pellentesque dui. Aliquam elementum cursus hendrerit. Phasellus
+        blandit luctus imperdiet. Nunc nec venenatis risus, iaculis convallis mauris. Quisque vitae ex massa. Mauris sed
+        libero mi.</p>
+
+      <p><img class="about-1" src="images/about1.png" alt="TODO" /></p>
+      <p><img class="about-2" src="images/about2.png" alt="TODO" /></p>
+      <p><img class="about-3" src="images/about3.png" alt="TODO" /></p>
+
+      <p>Pellentesque pellentesque tellus in leo congue, nec cursus urna pulvinar. Nunc consequat, enim ac elementum
+        aliquet, dui lorem ultricies ligula, sed hendrerit eros augue eu est. In tristique elit a sapien placerat, id
+        congue felis pretium. Fusce nec accumsan turpis. Vestibulum ultricies lorem vitae vestibulum cursus. Maecenas
+        euismod est a elementum porttitor. Integer sed orci sit amet risus lobortis volutpat vel ut purus. Sed dolor
+        leo,
+        fermentum non sodales vel, congue a lorem. Pellentesque ullamcorper ultrices accumsan.</p>
+
+      <p>Vivamus tristique diam nec ultricies posuere. Suspendisse nec est eget eros tempus ullamcorper. Maecenas
+        sollicitudin fermentum lectus vel dictum. Proin eros augue, tincidunt rhoncus molestie quis, rutrum ac turpis.
+        Maecenas vulputate purus justo, at maximus augue eleifend sed. Curabitur mollis sapien nulla, a imperdiet dolor
+        pellentesque vitae. Aliquam quis rutrum risus. Pellentesque pulvinar tellus orci, a finibus mi fermentum eget.
+        Cras tristique enim eu lorem blandit, eu hendrerit lacus feugiat. Etiam quis orci lorem. Suspendisse congue
+        finibus vulputate. Proin eget sapien eget dui rhoncus rutrum at vel metus. Pellentesque habitant morbi tristique
+        senectus et netus et malesuada fames ac turpis egestas. Ut ultricies quam nec risus fringilla, sed placerat erat
+        vulputate.</p>
+
+      <p>Curabitur auctor ipsum et
+        sollicitudin tempus. Ut vitae varius justo. Duis vitae metus quis felis placerat auctor. Maecenas et posuere
+        tellus, eget luctus sem. Nam vehicula a lacus sit amet pretium. Pellentesque habitant morbi tristique senectus
+        et
+        netus et malesuada fames ac turpis egestas. Quisque vitae sapien eu orci facilisis tempus. Nulla facilisi.</p>
+
+      <p>Quisque condimentum pretium diam vitae tincidunt. Integer viverra interdum orci, eget placerat lacus egestas
+        ut.
+        Cras ultrices tristique tempor. Nunc fermentum lorem quis felis lacinia, laoreet semper turpis mattis. Nunc leo
+        erat, molestie id mi ac, hendrerit cursus purus. Quisque vestibulum tellus ut commodo scelerisque. Quisque
+        facilisis at lacus vitae lobortis. Quisque sit amet lectus posuere, semper magna ut, imperdiet dolor. Aenean
+        aliquet, lorem nec feugiat viverra, diam tellus feugiat elit, a iaculis sapien metus quis neque. Duis commodo
+        interdum justo ut lacinia. Morbi quis accumsan purus. Phasellus pretium nulla eu orci porttitor, quis cursus
+        diam
+        commodo. Fusce condimentum tortor ut felis vestibulum, et commodo magna condimentum. Vestibulum volutpat nec
+        ligula sed cursus. Morbi sagittis condimentum urna, nec fringilla urna lacinia eu. Aenean sagittis condimentum
+        odio, vel tincidunt turpis dapibus eget.</p>
+    </section>
+    <section id="support" class="page" style="display: none">support</section>
+
+  </div> -->
+
+    <img class="footer-logo1" src="images/footer-logo1.png" alt="TODO" />
+
+  image display on mobile only
+  <footer>
+    <img class="footer-logo2 mobile-only" src="images/footer-logo2.png" alt="TODO" />
+
+    <div>
+      <p>2022 Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US
+        and
+        other countries.</p>
+      <p>VAT included in all prices where applicable.</p>
+      <p><a href="javascript:void;">Privacy Policy</a> | <a href="javascript:void;">Legal</a> | <a
+          href="javascript:void;">Steam Subscriber Agreement</a> | <a href="javascript:void;">Refunds</a> | <a
+          href="javascript:void;">Cookies</a></p>
+    </div>
+
+    <img class="footer-logo2 desktop-only" src="images/footer-logo2.png" alt="TODO" />
+  </footer>
+</article>
+</main>
+</section>
+</body>
+</html>

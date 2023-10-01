@@ -1,0 +1,28 @@
+//Casse Study      Favourite Websites//
+Group,             Finlay, John, Louis
+Theme Chosen,      Music / Media Platforms
+Analysis Style,    Swot: Strength, Weakness, Opportunity, Threat
+
+Platform Name,     Youtube 
+Strength,          = immediate access to reccomendations
+Strength,          = left navigation panel is set instone and never changes, so you can use these categories to quickly browse a topic, or the top middle navigation tabs are based upon your user search results to get more specific interests
+Strength,          = the ability to subscribe to channels in oder to customise your feed 
+Weakness,          = Watch Later could have a reminder feature set in place for vidoes to come back to
+Opportunity,       = Integrations from other companies such as Twitch to avoid seperate account creation and multiple video uploads for instance
+Threat,            = Other major platforms such as Soundcloud and Spotify, threat level minimum 
+
+Platform Name,     Spotify
+Strength,          = Has a discover weekly so that you can find new songs that can interest you
+Strength,          = Controllable from one device to another 
+Strength,          = Able to see what music your friends are listening too
+Strength,          = Adjustable plans for family members
+Weakness,          = It's a paid service. If you wish to listen to a specific song on mobile you have to pay for it
+Opportunity,       = Connectivity to Facebook to avoid having a separate account
+Threat,            = Other music platforms such as YouTube, Soundcloud           Threat Level: Medium
+
+Platform Name,     SoundCloud
+Strength,          = When you are on the real homepage everything is right in front of you
+Strength,          = Has multiple genres of playlists for you to choose from on the discover page
+Weakness,          = Homepage has nothing on it, there is a link which takes you to what should be the homepage (more of an about page instead of a home page)
+Opportunity,       = Connectivity to Facebook, Google and Apple accounts to avoid making a new account. 
+Threats,           = Other music platforms such as YouTube and Spotify       Threat Level: High 

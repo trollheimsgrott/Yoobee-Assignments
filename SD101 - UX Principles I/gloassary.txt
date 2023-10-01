@@ -1,0 +1,11 @@
+
+
+IA Information Architecture    = Information Architecture (IA) centres around the organisation, structure, and labelling of content in the digital space and how it all fits together, so that users can easily find the information they need and complete tasks.
+ID Interaction Design          = Interaction Design deals with the ways in which users interact or engage with the website or application
+IDE                            = The Integrated Development Environment is a software application that contains development tools like text editors, code libraries, compilers, build automation tools and debuggers
+Development framework          = Platform for developing applications
+SDKs                           = Software Development Kits
+Qualitative Research           = Qualitative research deals with words and meanings. It is, however, more nuanced than this
+Quantitative Research          = Quantitative research deals with numbers and statistics
+UI                             = User Interface / Design
+UX                             = User Experience (UX) refers to both the feelings or emotional experience, and the thoughts a user has when using a product
